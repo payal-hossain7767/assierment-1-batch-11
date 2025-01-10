@@ -77,7 +77,8 @@
     background-color: rgb(13, 124, 102);
     border: none;
     border-radius: 6px;
-    font-weight: 800;
+    font-size: 18px;
+    font-weight: 600;
     color: rgb(238, 238, 238);
 
 }
@@ -99,7 +100,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    margin:  8px 8px 8px 0 ;
+    margin: 8px 8px 8px 0;
 }
 
 .Transformation {
@@ -166,10 +167,11 @@
 .racent {
     /* border: 2px solid teal; */
     margin: 0 160px 30px 160px;
-    border-radius: 8px;
+    border-radius: 24px;
     background-color: rgb(255, 255, 255);
 }
-.maintenance{
+
+.maintenance {
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -180,15 +182,68 @@
 
 .satelite {
     border-radius: 12px;
-    
+
 }
 
-.all-ja{
-    margin: 20px 20px 20px 0 ;
+.all-ja {
+    margin: 20px 20px 20px 0;
 }
+
 .lanuch {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0%;
+}
+
+/* donate */
+.donate {
+    text-align: center;
+    margin: 80px 160px 80px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.inclusive {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.taka-btn {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    margin: 8px 24px;
+    padding: 24px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.taka-btn2 {
+    background-color: rgb(198, 228, 214);
+    border-radius: 16px;
+    margin: 8px 24px;
+    padding: 30px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.input-amout {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 16px;
+    margin: 8px 24px;
+    padding: 28px 48px 28px 48px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
 }
