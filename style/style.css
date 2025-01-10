@@ -1,4 +1,154 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+}
+
+/* navber */
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 160px 30px 160px;
+}
+
+.navber-ban {
+    /* color: rgba(255, 255, 255, 0.8); */
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0%;
+}
+
+.sing-up {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+/* banner */
+
+.banner-bangladesh {
+    height: 600px;
+    background: linear-gradient(rgb(189, 232, 202),
+            rgb(189, 232, 202), rgb(189, 232, 202));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 160px 50px 160px;
+    border-radius: 16px;
+    gap: 20px;
+    padding: 0 143px 0 143px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bangladesh {
+    color: rgba(14, 14, 14, 0.5);
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.vision {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(13, 124, 102);
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(238, 238, 238);
+
+}
+
+/*  */
+
+/* future */
+.piler {
+    margin: 30px 160px 50px 160px;
+}
+
+.future {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.future2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Transformation{
+    display: flex;
+    margin: 0 160px 50px 160px;
+    justify-content: space-between;
+    align-items: center;
+    gap:28px;
+}
+
+.digital {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 30px;
+}
+.modern{
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 30px;
+}
+.green{
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 30px;  
+}
+.learn{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(84, 144, 245);
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(238, 238, 238);
+}
+.learn2{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(9, 161, 92);
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(238, 238, 238);
+}
+.learn3{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(255, 194, 57);
+    border: none;
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(238, 238, 238);
+}
+.img2{
+    margin: 20px;
 }
