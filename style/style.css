@@ -25,7 +25,8 @@
     font-weight: 800;
     letter-spacing: 0%;
 }
-:hover.sing-up-btn{
+
+:hover.sing-up-btn {
     margin: 20px;
     padding: 15px;
     background-color: rgb(13, 124, 102);
@@ -79,11 +80,11 @@
     font-weight: 700;
     line-height: 67px;
 }
-:hover.btn
-{
+
+:hover.btn {
     margin: 20px 20px 20px 0;
     padding: 15px;
-    background-color:rgb(238, 238, 238) ;
+    background-color: rgb(238, 238, 238);
     border: 2px solid rgb(0, 106, 80);
     color: rgb(0, 106, 80);
     border-radius: 6px;
@@ -103,7 +104,42 @@
 
 }
 
-/*  */
+/* piller of bangladesh */
+.future7 {
+    margin: 30px 160px 20px 160px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Pillars {
+    margin: 30px 160px 20px 160px;
+    display: flex;
+    /* margin: 0 160px 80px 160px; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.innovation {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.future {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.future2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 8px 8px 8px 0;
+}
+
 
 /* future */
 .piler {
@@ -148,7 +184,8 @@
     background: rgb(198, 228, 214);
     padding: 30px;
 }
-:hover.learn{
+
+:hover.learn {
     margin: 20px;
     padding: 10px;
     background-color: rgb(238, 238, 238);
@@ -167,7 +204,8 @@
     font-weight: 800;
     color: rgb(238, 238, 238);
 }
-:hover.learn2{
+
+:hover.learn2 {
     margin: 20px;
     padding: 10px;
     background-color: rgb(238, 238, 238);
@@ -176,6 +214,7 @@
     font-weight: 800;
     color: rgb(9, 161, 92);
 }
+
 .learn2 {
     margin: 20px;
     padding: 10px;
@@ -186,7 +225,7 @@
     color: rgb(238, 238, 238);
 }
 
-:hover.learn3{
+:hover.learn3 {
     margin: 20px;
     padding: 10px;
     background-color: rgb(238, 238, 238);
@@ -195,6 +234,7 @@
     font-weight: 800;
     color: rgb(255, 194, 57);
 }
+
 .learn3 {
     margin: 20px;
     padding: 10px;
@@ -207,6 +247,32 @@
 
 .img2 {
     margin: 20px;
+}
+
+/* Yunus */
+.Yunus {
+    background-image: url('../img/quote-bg.png');
+    background-repeat: no-repeat;
+    margin: 0 160px 30px 160px;
+    border-radius: 16px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Yunus-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 60px;
+}
+
+.Yunus-h {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
 }
 
 /* racent */
@@ -257,7 +323,8 @@
     line-height: 48px;
     letter-spacing: 0%;
 }
-:hover.taka-btn{
+
+:hover.taka-btn {
     background-color: rgb(198, 228, 214);
     border-radius: 16px;
     margin: 8px 24px;
@@ -267,6 +334,7 @@
     font-weight: 700;
     line-height: 48px;
 }
+
 .taka-btn {
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
@@ -302,14 +370,102 @@
     font-weight: 700;
     line-height: 48px;
 }
+
 /* footer */
-.face-ins-x{
-    margin: 0 240px ;
+/* Subscribe */
+.subscribe {
+    height: 400px;
+    background-color: rgb(193, 226, 211);
+    border-radius: 24px;
+    text-align: center;
+    margin: 80px 160px 80px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px
+}
+
+.subscribe-h {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.subscribe-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+:hover.Subscribe-btn {
+    /* margin: 20px 20px 20px 0; */
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Subscribe-btn {
+    /* margin: 20px 20px 20px 0; */
+    margin: -8px 10px 10px -8px;
+    padding: 15px;
+    background-color: rgb(0, 106, 80);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(238, 238, 238);
+    border-radius: 0px 10px 10px 0px ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Subscribe-input{
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    border-radius: 10px 0px 0px 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.input-all{
+    /* height: 200px; */
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.face-ins-x {
+    margin: 0 240px;
     text-align: center;
 }
-.insta{
+
+.insta {
     margin: 20px;
 }
-.insta-img{
+
+.insta-img {
     margin: 10px;
 }
