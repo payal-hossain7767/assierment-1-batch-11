@@ -20,21 +20,30 @@
 }
 
 .navber-ban {
-    /* color: rgba(255, 255, 255, 0.8); */
     margin: 20px;
     font-size: 28px;
     font-weight: 800;
     letter-spacing: 0%;
 }
+:hover.sing-up-btn{
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(13, 124, 102);
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(238, 238, 238);
+}
 
-.sing-up {
+.sing-up-btn {
     margin: 20px;
     padding: 15px;
     border: 2px solid rgb(0, 106, 80);
     color: rgb(0, 106, 80);
     border-radius: 6px;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
 
 }
 
@@ -69,6 +78,17 @@
     font-size: 56px;
     font-weight: 700;
     line-height: 67px;
+}
+:hover.btn
+{
+    margin: 20px 20px 20px 0;
+    padding: 15px;
+    background-color:rgb(238, 238, 238) ;
+    border: 2px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .btn {
@@ -128,6 +148,15 @@
     background: rgb(198, 228, 214);
     padding: 30px;
 }
+:hover.learn{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(84, 144, 245);
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(84, 144, 245);
+}
 
 .learn {
     margin: 20px;
@@ -138,7 +167,15 @@
     font-weight: 800;
     color: rgb(238, 238, 238);
 }
-
+:hover.learn2{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(9, 161, 92);
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(9, 161, 92);
+}
 .learn2 {
     margin: 20px;
     padding: 10px;
@@ -149,6 +186,15 @@
     color: rgb(238, 238, 238);
 }
 
+:hover.learn3{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid rgb(255, 194, 57);
+    border-radius: 6px;
+    font-weight: 800;
+    color: rgb(255, 194, 57);
+}
 .learn3 {
     margin: 20px;
     padding: 10px;
@@ -211,7 +257,16 @@
     line-height: 48px;
     letter-spacing: 0%;
 }
-
+:hover.taka-btn{
+    background-color: rgb(198, 228, 214);
+    border-radius: 16px;
+    margin: 8px 24px;
+    padding: 30px;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
 .taka-btn {
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
@@ -246,4 +301,15 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+}
+/* footer */
+.face-ins-x{
+    margin: 0 240px ;
+    text-align: center;
+}
+.insta{
+    margin: 20px;
+}
+.insta-img{
+    margin: 10px;
 }
